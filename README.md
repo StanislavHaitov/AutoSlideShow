@@ -56,7 +56,7 @@ cd AutoSlideShow
 The Docker image for this project is hosted on Docker Hub. You can pull the latest version of the image using:
 
 ```bash
-docker pull stanislavhaitov/AutoSlideShow:latest
+docker pull stanislavhaitov/autoslideshow:latest
 ```
 ```bash
 docker run -d -p 5000:5000 \
@@ -65,7 +65,7 @@ docker run -d -p 5000:5000 \
     --name autoslideshow autoslideshow
 ```
 
-Docker Hub repository: [stanislavhaitov/AutoSlideShow](https://hub.docker.com/r/stanislavhaitov/AutoSlideShow)
+Docker Hub repository: [stanislavhaitov/autoslideshow](https://hub.docker.com/r/stanislavhaitov/autoslideshow)
 
 ## Technology Stack
 - **Python & Flask**: Web application framework.
